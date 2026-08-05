@@ -1,0 +1,18 @@
+{
+  "profile_name": "jumpbox-pbs-example",
+  "ssh_alias": "cluster",
+  "scheduler": {
+    "type": "pbs",
+    "partition": "workq",
+    "gpu_partition": "gpuq",
+    "default_account": null
+  },
+  "hardware": {
+    "cores_per_node": 48,
+    "gpus_per_node": 4
+  },
+  "paths": {
+    "root_dir": "/home/USER/scratch"
+  },
+  "apps": {}
+}

@@ -1,0 +1,18 @@
+{
+  "profile_name": "__PLACEHOLDER__",
+  "ssh_alias": "__PLACEHOLDER__",
+  "scheduler": {
+    "type": "__slurm_or_pbs__",
+    "partition": "__PLACEHOLDER__",
+    "gpu_partition": "__PLACEHOLDER__",
+    "default_account": null
+  },
+  "hardware": {
+    "cores_per_node": 0,
+    "gpus_per_node": 0
+  },
+  "paths": {
+    "root_dir": "__PLACEHOLDER__"
+  },
+  "apps": {}
+}

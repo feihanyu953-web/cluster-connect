@@ -1,0 +1,18 @@
+{
+  "profile_name": "direct-slurm-example",
+  "ssh_alias": "cluster",
+  "scheduler": {
+    "type": "slurm",
+    "partition": "compute",
+    "gpu_partition": "gpu",
+    "default_account": null
+  },
+  "hardware": {
+    "cores_per_node": 64,
+    "gpus_per_node": 0
+  },
+  "paths": {
+    "root_dir": "/home/USER/scratch"
+  },
+  "apps": {}
+}
